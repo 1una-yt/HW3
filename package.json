@@ -1,10 +1,24 @@
 {
-  "name": "HW3",
+  "name": "hw3-rental-price-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "台灣房屋租金物價指數追蹤系統",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": true
+  "keywords": ["rental", "price", "tracker", "crawler", "taiwan", "macromicro"],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "sqlite3": "^5.1.6",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
